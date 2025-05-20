@@ -6,7 +6,7 @@ import blogRoutes from './routes/blogRoutes.js';
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin:'https://kunikasirpor.github.io',
   credentials: true,
 }));
 
